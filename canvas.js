@@ -62,7 +62,7 @@ function Circle(x, y, r, dx, dy) {
 		this.x += this.dx;
 		this.y += this.dy;
 
-		// interactivity
+		
 
 		if (Math.abs(mouse.x - this.x) < 50 && Math.abs(mouse.y - this.y) < 50){
 			if (this.r < 20){
@@ -93,7 +93,7 @@ for(var i = 0; i < 300; i++){
 
 }
 
-// var c1 = ;
+
 var circle = new Circle(200, 200, 100, 10, 10);
 function animate(){
 	requestAnimationFrame(animate);
